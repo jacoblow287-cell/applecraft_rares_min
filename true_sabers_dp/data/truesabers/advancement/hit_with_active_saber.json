@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival", "adventure"]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "truesabers:on_hit"
+  }
+}
